@@ -18,7 +18,6 @@
   <remote name="boundary" fetch="https://github.com/boundarydevices"/>
   <remote name="ezurio" fetch="https://github.com/ezurio"/>
   <remote name="gses" fetch="https://github.com/NUNEZ-INDUSTRIES"/>
-  <remote name="sbabic" fetch="https://github.com/sbabic"/>
 
   <project name="poky" remote="yp" path="sources/poky" revision="200d12b6a58ad961d60a7774ca0f7a9d29498724" upstream="scarthgap"/>
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="72018ca1b1a471226917e8246e8bbf9a374ccf97" upstream="scarthgap"/>
@@ -48,8 +47,7 @@
   </project>
   <project name="meta-nxp-connectivity" remote="imx" path="sources/meta-nxp-connectivity" revision="refs/tags/rel_imx_6.6.52_2.2.0" upstream="imx_matter_2024_q3-post"/>
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.6.52_2.2.0" upstream="scarthgap-6.6.52-2.2.0"/>
-  <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.6.52_2.2.0" upstream="scarthgap-6.6.52-2.2.0"/>
-<project name="meta-gses" path="sources/meta-gses" remote="gses">
+<project name="meta-gses" path="sources/meta-gses" remote="gses" revision="2c6a577cd71479d10066273c94a6b6d07a26aa0f">
 	<linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
 	<linkfile dest="setup-environment-b2qt" src="tools/setup-environment-b2qt"/>
 </project>
